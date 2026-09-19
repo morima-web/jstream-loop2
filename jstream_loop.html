@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>動画ループ再生</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      overflow: hidden;
+    }
+    #player {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<div id="player"></div>
+
+<script type="text/javascript" charset="UTF-8"
+  src="https://ssl-cache.stream.ne.jp/www50/eqb867uxvc/jmc_pub/jmc_swf/player/t3/if.js">
+</script>
+
+<script type="text/javascript">
+  jstream_t3.PlayerFactoryIF.create({
+    b: "eqb867uxvc.eq.webcdn.stream.ne.jp/www50/eqb867uxvc/jmc_pub/jmc_swf/player/",
+    c: "MjI0Ng==",
+    m: "MTU1MA==",
+    t: 0,
+    s: {
+      hp: 360,
+      wp: 640,
+      dq: "5",
+      mdq: "0",
+      ft: "ncs",
+      pb: "on",
+      vc: "on",
+      sb: "on",
+      fs: "on",
+      fa: "right",
+      ti: "off",
+      is: "on",
+      ip: "off",
+      el: "on",
+      tg: "off",
+      mb: "on",
+      sn: "",
+      rp: "fit",
+      wm: "on",
+      wd: 1,
+      cp: "on",
+      rb: "on",
+      il: "off",
+      rs: "off",
+      prl: "off",
+      sbt: "off",
+      pr: "0.5,0.7,0.9,1.2,1.5",
+      cc: "on",
+      lu: "on",
+      plac: "off",
+      skb: "10",
+      fskb: "10",
+      bskb: "10",
+      cpt: "on",
+      va: "on",
+      fc: "on"
+    }
+  });
+</script>
+
+</body>
+</html>
